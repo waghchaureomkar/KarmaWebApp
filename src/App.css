@@ -1,38 +1,117 @@
-.App {
-  text-align: center;
-}
+/* --------------header----------------------- */
+.header {
+  color: #ffffff;
+  background-color: #00284d;
+  position: fixed;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  z-index: 1;
+  width: 100%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* -----------------HOME---------------------- */
+.carousel {
+  height: 300px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+span {
+  color: #00ccff;
+}
+/* -----------------ABOUT US--------------- */
+.about {
+  margin-top: 30px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  background-color: #e6e6e6;
+  height: 250px;
+  width: 100%;
+}
+.head {
+  /* margin-left: 12px; */
+  background-color: #3399ff;
+  color: #ffffff;
+  height: 250px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+}
+.div2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h6 {
+  text-align: center;
+  margin-top: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.img {
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+}
+.profiles {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+/* ----------------SERVICES----------------------- */
+.services {
+  margin-top: 30px;
+  display: flex;
+  background-color: #e6e6e6;
+  height: 250px;
+  width: 100%;
+}
+.serviceshead {
+  /* margin-left: 12px; */
+  background-color: #ff9900;
+  color: #ffffff;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.servicediv {
+  display: block;
+  margin-left: 75px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.divclip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  height: 70px;
+  width: 80px;
+  background-color: #000000;
+}
+.divclip1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  height: 70px;
+  width: 80px;
+  background-color: #ff9900;
+}
+.clip {
+  align: center;
+  height: 40px;
+  width: 40px;
+}
+.servicediv3 {
+  background-color: #ff9900;
+  color: #ffffff;
+  height: 250px;
+  width: 80;
+}
+h4 {
+  margin-top: 10px;
+}
+/* ----------------footer----------------------- */
+.footer {
+  color: #ffffff;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-top: 30px;
+  background-color: #00284d;
+  height: 100px;
 }
